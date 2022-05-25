@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency-Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Currency Converter</h1>
+      <p>Choose the currency and the amounts to get the exchange rate</p>
+      <form action="" id="converter">
+        Amount:
+        <input type="number" min="0" name="amount" />
+        From:
+        <select name="from">
+          <option value="BDT">Bangladeshi Taka (BDT)</option>
+          <option value="PLN">Polish Zloty (PLN)</option>
+          <option value="INR">Indian Rupee (INR)</option>
+          <option value="USD">United States Dollar (USD)</option>
+          <option value="EUR">Euro (EUR)</option>
+          <option value="CNY">Chinese Yuan (CNY)</option>
+          <option value="CAD">Canadian Dollar (CAD)</option>
+          <option value="MXN">Mexican Peso (MXN)</option>
+          <option value="JPY">Japanese Yen (JPY)</option>
+          <option value="SAR">Saudi Arabian Riyal (SAR)</option>
+        </select>
+        To:
+        <select name="to">
+          <option value="BDT">Bangladeshi Taka (BDT)</option>
+          <option value="PLN">Polish Zloty (PLN)</option>
+          <option value="INR">Indian Rupee (INR)</option>
+          <option value="USD">United States Dollar (USD)</option>
+          <option value="EUR">Euro (EUR)</option>
+          <option value="CNY">Chinese Yuan (CNY)</option>
+          <option value="CAD">Canadian Dollar (CAD)</option>
+          <option value="MXN">Mexican Peso (MXN)</option>
+          <option value="JPY">Japanese Yen (JPY)</option>
+          <option value="SAR">Saudi Arabian Riyal (SAR)</option>
+        </select>
+        <input type="submit" value="Convert" />
+      </form>
+      <p id="output"></p>
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>

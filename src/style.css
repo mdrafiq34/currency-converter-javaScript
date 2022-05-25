@@ -1,10 +1,8 @@
 body {
-    background-color: blueviolet; 
-    padding: 30px;
-    text-align: center;
-  }
-  .container{
-    
-      background-color: aqua;
-  }
-  
+  background-color: rgb(121, 143, 156);
+  padding: 30px;
+  text-align: center;
+}
+.container {
+  background-color: rgba(224, 237, 202);
+}
